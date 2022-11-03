@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DilansBookStore.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : Controller.000000000000000000000000000000000000000000000
     {
         private readonly ILogger<HomeController> _logger;
 
