@@ -10,3 +10,7 @@ Program Date:- 2022/10/25
 0900: Started creating new project and gave project name DilansBookStore
 0910: Checked all dependencies are there or not
 0920: Successfully build the project
+0930: Add a theme for project sketchy
+0935: replaced bootstrap.css page 
+0940: done changes in _Layout.cshtml
+
