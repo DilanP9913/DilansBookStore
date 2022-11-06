@@ -13,4 +13,5 @@ Program Date:- 2022/10/25
 0930: Add a theme for project sketchy
 0935: replaced bootstrap.css page 
 0940: done changes in _Layout.cshtml
+0950: added additional third party tools Jquery UI(Datepicker), Datatables, Sweet alert, Font Awesome, Toastr
 
