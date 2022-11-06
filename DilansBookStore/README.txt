@@ -23,3 +23,6 @@ Program Date:- 2022/10/25
       - Dilansbooks.Models
       - Dilansbooks.Utility
 1020: Moved data folder from main folder to .DataAccess
+1030: Installed Nuget package
+      - Microsoft.EntityFrameworkcore.Relational
+      - Microsoft.EntityFrameworkcore.Sqlserver
