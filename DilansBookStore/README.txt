@@ -14,8 +14,12 @@ Program Date:- 2022/10/25
 0935: replaced bootstrap.css page 
 0940: done changes in _Layout.cshtml
 0950: added additional third party tools Jquery UI(Datepicker), Datatables, Sweet alert, Font Awesome, Toastr
-0960: added dropdown menu in _Layout.cshtml
-0965: then run the application
-0966: And it worked dropdownj was build
-0970: I changed the dropdown menu name from 'Dropdown' to 'Content Mangement'
-
+1000: added dropdown menu in _Layout.cshtml
+1005: then run the application
+1006: And it worked dropdownj was build
+1010: I changed the dropdown menu name from 'Dropdown' to 'Content Mangement'
+1015: Creted 3 new projects :-
+      - Dilansbooks.DataAccess
+      - Dilansbooks.Models
+      - Dilansbooks.Utility
+1020: Moved data folder from main folder to .DataAccess
