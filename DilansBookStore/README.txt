@@ -51,3 +51,7 @@ Program Date:- 2022/10/25
 1030: Solved all errors
 1035: And then tested the application
 1040: And it built it successfully
+1050: created class in utility project
+1055: modified its properties
+1100: added its project refrence to main project
+1105 Added project refrence to .DataAccess of model and utility
