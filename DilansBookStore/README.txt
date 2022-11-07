@@ -26,3 +26,8 @@ Program Date:- 2022/10/25
 1030: Installed Nuget package
       - Microsoft.EntityFrameworkcore.Relational
       - Microsoft.EntityFrameworkcore.Sqlserver
+
+2022/11/3
+
+0900: Again started doing project and going to finish it.....
+
