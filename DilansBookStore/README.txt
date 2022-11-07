@@ -44,5 +44,10 @@ Program Date:- 2022/10/25
 0940: Added project refrence to .DataAcess and .Models
 0945: Then renamed Models folder to View models
 0950: change the namespace in ErrorViewModels.cs
-0960: Then build the project to check
-0961: It was build successfully
+1000: Then build the project to check
+1001: It was build successfully
+1010: Modified Startup.cs
+1015: Try to find all errors
+1030: Solved all errors
+1035: And then tested the application
+1040: And it built it successfully
