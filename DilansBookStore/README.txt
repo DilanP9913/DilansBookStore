@@ -40,3 +40,9 @@ Program Date:- 2022/10/25
 0928: Deleted default Class1.cs file from all projects 
 0930: I tried to build the project
 0931: And it successfully build
+0935: Moved models folder to Dilansbooks.Models
+0940: Added project refrence to .DataAcess and .Models
+0945: Then renamed Models folder to View models
+0950: change the namespace in ErrorViewModels.cs
+0960: Then build the project to check
+0961: It was build successfully
