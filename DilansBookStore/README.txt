@@ -54,4 +54,6 @@ Program Date:- 2022/10/25
 1050: created class in utility project
 1055: modified its properties
 1100: added its project refrence to main project
-1105 Added project refrence to .DataAccess of model and utility
+1105: Added project refrence to .DataAccess of model and utility
+1110: Added a arear in Areas
+1115: Chnaged route in ScaffoldingReadMe.txt
