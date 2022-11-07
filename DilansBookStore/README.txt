@@ -30,4 +30,6 @@ Program Date:- 2022/10/25
 2022/11/3
 
 0900: Again started doing project and going to finish it.....
-
+0901: Tried building project just for checking but it came error.
+0903: I then retried it and it successfully builded.
+0905: Now I moved to next step.
