@@ -34,3 +34,5 @@ Program Date:- 2022/10/25
 0903: I then retried it and it successfully builded.
 0905: Now I moved to next step.
 0910: Deleted Migration folder permanently
+0915: Installed one more Nuget package
+      - Identity.EntityFrameworkCore
