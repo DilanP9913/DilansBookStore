@@ -36,3 +36,7 @@ Program Date:- 2022/10/25
 0910: Deleted Migration folder permanently
 0915: Installed one more Nuget package
       - Identity.EntityFrameworkCore
+0924: Modifyed the namesapace in ApplicationDbContext.cs
+0928: Deleted default Class1.cs file from all projects 
+0930: I tried to build the project
+0931: And it successfully build
