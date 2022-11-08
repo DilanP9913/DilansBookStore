@@ -82,3 +82,7 @@ Program Date:- 2022/10/25
  1125: Started with Part 2 
         First I try to build my application 
  1127: And it successfully build and was running absolutly fine
+ 1135: Created migrations
+ 1136: And modified database name 
+ 1140: by using Nuget Package Manager Console added migration in .DataAccess project
+ 
