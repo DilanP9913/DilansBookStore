@@ -64,4 +64,7 @@ Program Date:- 2022/10/25
 1140: Modified homeController namespace
 1145: Tried to run the application
 1146: And i found that application was all changed 
+1156: Copied _viewImport and_ViewStart to customer>Area
+1200: Modified _ViewStart.cshtml
+1205: Then i run the application and i found m y last web page again......
 
