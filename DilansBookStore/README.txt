@@ -85,4 +85,9 @@ Program Date:- 2022/10/25
  1135: Created migrations
  1136: And modified database name 
  1140: by using Nuget Package Manager Console added migration in .DataAccess project
+ 1150: Reviewed the file After creating
+ 1200: then updated the migration
+ 1210: Reviewed the updated database in SQL server Object Explorer
+ 1214: Try to run the application for checking errors
+ 1215: application runned successfully and no errors were found
  
