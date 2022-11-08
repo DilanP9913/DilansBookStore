@@ -56,4 +56,10 @@ Program Date:- 2022/10/25
 1100: added its project refrence to main project
 1105: Added project refrence to .DataAccess of model and utility
 1110: Added a arear in Areas
-1115: Chnaged route in ScaffoldingReadMe.txt
+1115: Changed route in ScaffoldingReadMe.txt
+1120: Moved HomeController.cs folder to controller folder
+1125: Deleted Data and Models
+1130: Edited HomeController.cs
+1135: Moved views 
+1140: Modified homeController namespace
+
