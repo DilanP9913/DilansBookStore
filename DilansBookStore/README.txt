@@ -90,4 +90,12 @@ Program Date:- 2022/10/25
  1210: Reviewed the updated database in SQL server Object Explorer
  1214: Try to run the application for checking errors
  1215: application runned successfully and no errors were found
+ 1225: Added a new table to DB by creating a model
+ 1230: Added a new class file
+ 1235: added migration
+ 1240: updated Application DB context by using satatement
+ 1250: then I re-run the migration by deleting the previous to avoid duplication
+ 0100: then updated database with new Categories
+
+ 1255:
  
