@@ -3,9 +3,9 @@ Program purpose:- To create a Webapp for book store
 Program Author:- Dilankumar Patel
 Program Date:- 2022/10/25
 
--------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------Part-1----------------------------------------------------------------
 
-2022/11/2
+2022/10/25
 
 0900: Started creating new project and gave project name DilansBookStore
 0910: Checked all dependencies are there or not
@@ -27,7 +27,7 @@ Program Date:- 2022/10/25
       - Microsoft.EntityFrameworkcore.Relational
       - Microsoft.EntityFrameworkcore.Sqlserver
 
-2022/11/3
+2022/10/27
 
 0900: Again started doing project and going to finish it.....
 0901: Tried building project just for checking but it came error.
@@ -67,4 +67,18 @@ Program Date:- 2022/10/25
 1156: Copied _viewImport and_ViewStart to customer>Area
 1200: Modified _ViewStart.cshtml
 1205: Then i run the application and i found m y last web page again......
+1210: Addede new admin area in Areas
+1215: Deleted Data, Model and Controller folder
+1220: Added view files
+1225: checked the application by running it.
+1230: And it was running properly.
+1235: And i finally completed my project............
+      And came to end with part 1
 
+ ------------------------------------------------------------------------------Part-2--------------------------------------------------------------
+
+ 2022/11/08
+
+ 1125: Started with Part 2 
+        First I try to build my application 
+ 1127: And it successfully build and was running absolutly fine
