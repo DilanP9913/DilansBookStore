@@ -62,4 +62,6 @@ Program Date:- 2022/10/25
 1130: Edited HomeController.cs
 1135: Moved views 
 1140: Modified homeController namespace
+1145: Tried to run the application
+1146: And i found that application was all changed 
 
