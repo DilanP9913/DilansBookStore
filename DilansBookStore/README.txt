@@ -96,6 +96,18 @@ Program Date:- 2022/10/25
  1240: updated Application DB context by using satatement
  1250: then I re-run the migration by deleting the previous to avoid duplication
  0100: then updated database with new Categories
-
- 1255:
  
+ 2022/11/13
+
+ 1000: Added a new folder name 'Repository'.
+ 1002: Added an 'IRepository' folder inside it.
+ 1005: Added new item of type interface to the folder named 'IRepository'
+ 1010: Modified it, so that it can be used on category class.
+ 1015: Then I fiexed all bugs
+ 1020: Modified the code for constuctors and dependency(DI)
+ 1025: Created two Rpos-
+        - CategoryRepository.cs
+        - ICategoryRepository.cs
+1030: Modified CategoryRepository.cs
+1035: Modified ICategoryRepository.cs
+1040: Then again fixed some errors
