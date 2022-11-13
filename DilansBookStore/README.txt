@@ -111,3 +111,8 @@ Program Date:- 2022/10/25
 1030: Modified CategoryRepository.cs
 1035: Modified ICategoryRepository.cs
 1040: Then again fixed some errors
+1045: Added new interface int the IRepository folder ISP_Calls.cs
+1050: Installed Nuget package for Dapper
+1055: Added a new class SP_Call.cs in the Repository
+1100: added a connection to the database and added additional using statements
+1105: updated implementation of ISP_Call interface.
