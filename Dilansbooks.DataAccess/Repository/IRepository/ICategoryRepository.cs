@@ -8,5 +8,9 @@ namespace DilansBooks.DataAccess.Repository.IRepository
     public interface ICategoryRepository
     {
         void Update(Category category);
+        Category Get(int v);
+        void Add(Category category);
+        object GetAll();
+        void Remove(Category objFromDb);
     }
 }

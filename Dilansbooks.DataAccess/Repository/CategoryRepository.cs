@@ -18,6 +18,11 @@ namespace DilansBooks.DataAccess.Repository
             _db = db;
         }
 
+        public object GetAll()
+        {
+            throw new NotImplementedException();
+        }
+
         public void Update(Category category)
         {
             // use .NET LINQ to retrieve the first or default category object

@@ -126,3 +126,12 @@ Program Date:- 2022/10/25
 1055: Corrected errors and build it
 1100: Some error poped up, but then fixed it while building
 1101: Successfully application was builded
+1600: Added new MVC Controller - empty inside Areas/Admin
+1605: modified it to use the IUnitOfWork from .DataAccess
+1610: Added new folder in Areas/View as Controller
+1615: added new index view to the folder
+1616: Modified it
+1620: Saved and runned it
+1621: Successfully runned
+1625: In _Layout.cshtml moved 'Category' link to the Content Management dropdown
+1627: Reviewed the changes to the navigation
