@@ -135,3 +135,9 @@ Program Date:- 2022/10/25
 1621: Successfully runned
 1625: In _Layout.cshtml moved 'Category' link to the Content Management dropdown
 1627: Reviewed the changes to the navigation
+1630: Modified Index.cshtml to add icons in the category section
+1635: Deleted it after testing
+1636: Added category.js in wwwroot/js folder
+1640: In Index.cshtml added @section call to category.js sript and run the project
+1645: Then checked it by running
+1647: And it was running perfectly fine.
