@@ -1,4 +1,4 @@
-﻿using Dilansbooks.DataAccess.Repository.IRepository;
+﻿using DilansBooks.DataAccess.Repository.IRepository;
 using DilansBooks.Models;
 using DilansBookStore.DataAccess.Data;
 using System;
@@ -31,9 +31,5 @@ namespace DilansBooks.DataAccess.Repository
             }
 
         }
-    }
-
-    internal interface ICategoryRepository
-    {
     }
 }

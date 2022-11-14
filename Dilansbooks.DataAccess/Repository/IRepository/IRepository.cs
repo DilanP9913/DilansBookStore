@@ -4,7 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 
-namespace Dilansbooks.DataAccess.Repository.IRepository
+namespace DilansBooks.DataAccess.Repository.IRepository
 {
     public interface IRepository<T> where T : class
     {

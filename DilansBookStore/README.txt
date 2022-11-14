@@ -116,3 +116,13 @@ Program Date:- 2022/10/25
 1055: Added a new class SP_Call.cs in the Repository
 1100: added a connection to the database and added additional using statements
 1105: updated implementation of ISP_Call interface.
+
+2022/11/14
+
+1030: Added wrapper for Unit of Work
+1035: Added new interface IUnitOfWork to the Irepository folder
+1040: Modified UnitOfWork.cs
+1050: To make it accessible, registered it on Startup.cs
+1055: Corrected errors and build it
+1100: Some error poped up, but then fixed it while building
+1101: Successfully application was builded

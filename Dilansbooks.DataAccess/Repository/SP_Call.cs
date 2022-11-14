@@ -1,4 +1,4 @@
-﻿using Dilansbooks.DataAccess.Repository.IRepository;
+﻿using DilansBooks.DataAccess.Repository.IRepository;
 using DilansBookStore.DataAccess.Data;
 using Dapper;
 using Microsoft.Data.SqlClient;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AbhikumarsBooks.DataAccess.Repository
+namespace DilansBooks.DataAccess.Repository
 {
     public class SP_Call : ISP_Call
     {

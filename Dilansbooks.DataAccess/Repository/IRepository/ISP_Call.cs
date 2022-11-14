@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Dilansbooks.DataAccess.Repository.IRepository
+namespace DilansBooks.DataAccess.Repository.IRepository
 {
     public interface ISP_Call : IDisposable
     {

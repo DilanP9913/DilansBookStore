@@ -1,4 +1,4 @@
-﻿using Dilansbooks.DataAccess.Repository.IRepository;
+﻿using DilansBooks.DataAccess.Repository.IRepository;
 using DilansBookStore.DataAccess.Data;
 using Microsoft.EntityFrameworkCore;
 using System;
