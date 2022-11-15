@@ -141,3 +141,22 @@ Program Date:- 2022/10/25
 1640: In Index.cshtml added @section call to category.js sript and run the project
 1645: Then checked it by running
 1647: And it was running perfectly fine.
+1800: Added IAction result to the controller
+1805: Modified upsert view
+1810: created partial view for Edit | Back
+1815: Added partial named:-
+       - _CreateAndBackToListButton
+       - _EditAndBackToListButton
+1820: Added razor code
+1825: Modified upsert.cshtml
+1830: added asp-action to index.cshtml
+1835: Modified Upsert.cshtml
+1840: Added @section call to scripts to validate input
+1845: then created Upsert Post action method
+1850: Added void save method
+1855: Removed _db.savechanges()
+1900: moved Redirectoaction method
+1905: Checked for errors
+1910: There were some errors but I fixed
+1915: Then try to build
+1917: but not able to build

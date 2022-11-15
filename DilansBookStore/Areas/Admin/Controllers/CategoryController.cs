@@ -29,7 +29,7 @@ namespace DilansBookStore.Area.Admin.Controllers
             return View();
         }
 
-        public IActionResult upsert(int? id)
+        public IActionResult Upsert(int? id)
         {
             Category category = new Category();
             if (id == null)
@@ -55,6 +55,8 @@ namespace DilansBookStore.Area.Admin.Controllers
 
                 {
                     _unitOfWork.Category.Add(category);
+                    _unitOfWork.Save();
+
 
                 }
                 else
@@ -92,7 +94,6 @@ namespace DilansBookStore.Area.Admin.Controllers
             _unitOfWork.Save();
             return Json(new { success = true, messasge = "Delete successful" });
         }
-
         #endregion
     }
 
