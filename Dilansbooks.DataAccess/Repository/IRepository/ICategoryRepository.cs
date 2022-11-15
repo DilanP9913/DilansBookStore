@@ -5,12 +5,9 @@ using System.Text;
 
 namespace DilansBooks.DataAccess.Repository.IRepository
 {
-    public interface ICategoryRepository
+    public interface ICategoryRepository : IRepository<Category>
     {
         void Update(Category category);
-        Category Get(int v);
-        void Add(Category category);
-        object GetAll();
-        void Remove(Category objFromDb);
+       
     }
 }

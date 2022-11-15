@@ -77,12 +77,15 @@ Program Date:- 2022/10/25
 
  ------------------------------------------------------------------------------Part-2--------------------------------------------------------------
 
+ Now starting part 2
  2022/11/08
 
  1125: Started with Part 2 
         First I try to build my application 
  1127: And it successfully build and was running absolutly fine
  1135: Created migrations
+       - 20221108165248_AddDefaultIdentityMigration
+       - 20221108181607_AddCategoryToDb
  1136: And modified database name 
  1140: by using Nuget Package Manager Console added migration in .DataAccess project
  1150: Reviewed the file After creating
@@ -160,3 +163,13 @@ Program Date:- 2022/10/25
 1910: There were some errors but I fixed
 1915: Then try to build
 1917: but not able to build
+1920: Now I was feeling sleepy..................
+
+2022/11/15
+0950: updated upsert.cshtml
+1000: Then I try to solve my error and my error was solved finally...........
+      I was having problem with my ICategoryRepository.cs
+      I have forget to add extension for IRepository<category>
+      And I solved it
+1010: Finally checked my project.
+1015: And it was running successfully..............

@@ -1,11 +1,9 @@
 ﻿using DilansBooks.DataAccess.Repository.IRepository;
-using DilansBookStore.DataAccess.Data;
 using DilansBookStore.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using DilansBooks.Models;
@@ -37,7 +35,7 @@ namespace DilansBookStore.Area.Admin.Controllers
                 return View(category);
 
             }
-            category = _unitOfWork.Category.Get(id.GetValueOrDefault());
+            category = _unitOfWork.Category.get(id.GetValueOrDefault());
             if (category == null)
             {
                 return NotFound();
@@ -55,8 +53,7 @@ namespace DilansBookStore.Area.Admin.Controllers
 
                 {
                     _unitOfWork.Category.Add(category);
-                    _unitOfWork.Save();
-
+                   
 
                 }
                 else
@@ -84,7 +81,7 @@ namespace DilansBookStore.Area.Admin.Controllers
         [HttpDelete]
         public IActionResult Delete(int id)
         {
-            var objFromDb = _unitOfWork.Category.Get(id);
+            var objFromDb = _unitOfWork.Category.get(id);
             if (objFromDb == null)
             {
                 return Json(new { success = false, message = "Error while deleting" });
@@ -92,7 +89,7 @@ namespace DilansBookStore.Area.Admin.Controllers
             }
             _unitOfWork.Category.Remove(objFromDb);
             _unitOfWork.Save();
-            return Json(new { success = true, messasge = "Delete successful" });
+            return Json(new { success = true, message = "Delete successful" });
         }
         #endregion
     }
