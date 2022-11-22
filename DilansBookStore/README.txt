@@ -188,3 +188,8 @@ Program Date:- 2022/10/25
 1520: Then added CoverType to unitofwork
 1525: then added CoverType to IUnitofwork
 1530: then pushed it to database
+1535: Added Cover Type to navbar
+1540: Added Covertype controller 
+1545: Added Cover type index view to use data tables
+1550: Added cover type upsert view of creating and updating
+1555: Delete cover type is done
