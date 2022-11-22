@@ -3,7 +3,7 @@ Program purpose:- To create a Webapp for book store
 Program Author:- Dilankumar Patel
 Program Date:- 2022/10/25
 
-----------------------------------------------------------------------------------Part-1----------------------------------------------------------------
+----------------------------------------------------------------------------------Part-1------------------------------------------------------------------------------------------------------------------
 
 2022/10/25
 
@@ -75,7 +75,7 @@ Program Date:- 2022/10/25
 1235: And i finally completed my project............
       And came to end with part 1
 
- ------------------------------------------------------------------------------Part-2--------------------------------------------------------------
+ ------------------------------------------------------------------------------Part-2------------------------------------------------------------------------------------------------------------------------
 
  Now starting part 2
  2022/11/08
@@ -173,3 +173,18 @@ Program Date:- 2022/10/25
       And I solved it
 1010: Finally checked my project.
 1015: And it was running successfully..............
+
+--------------------------------------------------------------------------------------------Part-3---------------------------------------------------------------------------------------------------------------------------------------
+
+2022/11/22
+
+1500: Now started with part 3 
+1501: first added new class file CoverType.cs in models
+1505: then added a migration file
+      - 20221122200305_AddCoverTypeToDb.cs
+1506: Then update Dbcontext file as new migration was added
+1510: Then added CoverTypeRepository class
+1515: Then added interface ICoverTypeRepository
+1520: Then added CoverType to unitofwork
+1525: then added CoverType to IUnitofwork
+1530: then pushed it to database
