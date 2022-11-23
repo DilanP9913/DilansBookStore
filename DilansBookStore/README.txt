@@ -207,3 +207,10 @@ Program Date:- 2022/10/25
 1540: Added product controller 
 1545: Added product index view to use data tables
 1550: Added product upsert view of creating and updating
+
+2022/11/23
+
+1500: Added product and images folder
+1510: Then try to run the application
+1515: And it was running successfully............................
+1516: And with this I completed my part -3

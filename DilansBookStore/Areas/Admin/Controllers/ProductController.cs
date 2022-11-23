@@ -66,7 +66,7 @@ namespace DilansBookStore.Area.Admin.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult upsert(ProductVM productVM)
+        public IActionResult Upsert(ProductVM productVM)
         {
             if (ModelState.IsValid)
             {
