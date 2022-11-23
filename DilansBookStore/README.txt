@@ -193,3 +193,17 @@ Program Date:- 2022/10/25
 1545: Added Cover type index view to use data tables
 1550: Added cover type upsert view of creating and updating
 1555: Delete cover type is done
+1600: Now started adding Product
+1601: first added new class file product.cs in models
+1505: then added a migration file
+      - 20221122230958_AddProductToDb.cs
+1506: Then update Dbcontext file as new migration was added
+1510: Then added ProductRepository class
+1515: Then added interface IProductRepository
+1520: Then added Product to unitofwork
+1525: then added Product to IUnitofwork
+1530: then pushed it to database
+1535: Added product to navbar
+1540: Added product controller 
+1545: Added product index view to use data tables
+1550: Added product upsert view of creating and updating
