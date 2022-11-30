@@ -56,7 +56,7 @@ namespace DilansBookStore.Area.Admin.Controllers
                 return View(productVM);
             }
             // this is for edit
-            productVM.Product = _unitOfWork.Product.get(id.GetValueOrDefault());
+            productVM.Product = _unitOfWork.Product.Get(id.GetValueOrDefault());
             if (productVM.Product == null)
             {
                 return NotFound();
@@ -98,7 +98,7 @@ namespace DilansBookStore.Area.Admin.Controllers
                     // update when they do not change the image
                     if (productVM.Product.Id != 0)
                     {
-                        Product objFromDb = _unitOfWork.Product.get(productVM.Product.Id);
+                        Product objFromDb = _unitOfWork.Product.Get(productVM.Product.Id);
                         productVM.Product.ImageUrl = objFromDb.ImageUrl;
                     }
                 }
@@ -128,7 +128,7 @@ namespace DilansBookStore.Area.Admin.Controllers
                 });
                 if (productVM.Product.Id != 0)
                 {
-                    productVM.Product = _unitOfWork.Product.get(productVM.Product.Id);
+                    productVM.Product = _unitOfWork.Product.Get(productVM.Product.Id);
                 }
             }
             return View(productVM);
@@ -146,7 +146,7 @@ namespace DilansBookStore.Area.Admin.Controllers
         [HttpDelete]
         public IActionResult Delete(int id)
         {
-            var objFromDb = _unitOfWork.Product.get(id);
+            var objFromDb = _unitOfWork.Product.Get(id);
             if (objFromDb == null)
             {
                 return Json(new { success = false, message = "Error while deleting" });

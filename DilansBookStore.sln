@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DilansBookStore", "DilansBookStore\DilansBookStore.csproj", "{97D0C914-C076-42EA-9515-2C5CA3F33ED9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dilansbooks.DataAccess", "Dilansbooks.DataAccess\Dilansbooks.DataAccess.csproj", "{CD9B7B8E-FE51-42A7-A59B-493EE585691E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DilansBooks.DataAccess", "Dilansbooks.DataAccess\DilansBooks.DataAccess.csproj", "{CD9B7B8E-FE51-42A7-A59B-493EE585691E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DilansBooks.Models", "DilansBooks.Models\DilansBooks.Models.csproj", "{937EA479-44D4-47A5-A303-B42A2F36978F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DilansBooks.Models", "DilansBooks.Models\DilansBooks.Models.csproj", "{937EA479-44D4-47A5-A303-B42A2F36978F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DilansBooks.Utility", "DilansBooks.Utility\DilansBooks.Utility.csproj", "{D89C5F39-8AD7-4FE9-8E16-625B9040764B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DilansBooks.Utility", "DilansBooks.Utility\DilansBooks.Utility.csproj", "{D89C5F39-8AD7-4FE9-8E16-625B9040764B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

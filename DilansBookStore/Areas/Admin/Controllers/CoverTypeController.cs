@@ -35,7 +35,7 @@ namespace DilansBookStore.Area.Admin.Controllers
                 return View(CoverType);
 
             }
-            CoverType = _unitOfWork.CoverType.get(id.GetValueOrDefault());
+            CoverType = _unitOfWork.CoverType.Get(id.GetValueOrDefault());
             if (CoverType == null)
             {
                 return NotFound();
@@ -74,7 +74,7 @@ namespace DilansBookStore.Area.Admin.Controllers
         [HttpDelete]
         public IActionResult Delete(int id)
         {
-            var objFromDb = _unitOfWork.CoverType.get(id);
+            var objFromDb = _unitOfWork.CoverType.Get(id);
             if (objFromDb == null)
             {
                 return Json(new { success = false, message = "Error while deleting" });

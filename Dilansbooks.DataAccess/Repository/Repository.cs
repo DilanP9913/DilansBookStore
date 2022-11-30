@@ -30,10 +30,7 @@ namespace DilansBooks.DataAccess.Repository
             return dbSet.Find(id);
         }
 
-        public T get(int id)
-        {
-            throw new NotImplementedException();
-        }
+       
 
         public IEnumerable<T> GetAll(Expression<Func<T, bool>> filter = null, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, string includeProperties = null)
         {

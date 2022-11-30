@@ -17,14 +17,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Dilansbooks.DataAccess\Dilansbooks.DataAccess.csproj" />
+    <ProjectReference Include="..\Dilansbooks.DataAccess\DilansBooks.DataAccess.csproj" />
     <ProjectReference Include="..\DilansBooks.Models\DilansBooks.Models.csproj" />
     <ProjectReference Include="..\DilansBooks.Utility\DilansBooks.Utility.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Controllers\" />
-    <Folder Include="wwwroot\images\products\" />
   </ItemGroup>
 
 </Project>

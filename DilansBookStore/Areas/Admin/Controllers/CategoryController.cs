@@ -35,7 +35,7 @@ namespace DilansBookStore.Area.Admin.Controllers
                 return View(category);
 
             }
-            category = _unitOfWork.Category.get(id.GetValueOrDefault());
+            category = _unitOfWork.Category.Get(id.GetValueOrDefault());
             if (category == null)
             {
                 return NotFound();
@@ -81,7 +81,7 @@ namespace DilansBookStore.Area.Admin.Controllers
         [HttpDelete]
         public IActionResult Delete(int id)
         {
-            var objFromDb = _unitOfWork.Category.get(id);
+            var objFromDb = _unitOfWork.Category.Get(id);
             if (objFromDb == null)
             {
                 return Json(new { success = false, message = "Error while deleting" });
