@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Dilansbooks.DataAccess.Migrations
+namespace DilansBooks.DataAccess.Migrations
 {
     public partial class AddDefaultIdentityMigration : Migration
     {

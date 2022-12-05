@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DilansBooks.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20221201161911_AddValidationToProduct")]
+    [Migration("20221205192911_AddValidationToProduct")]
     partial class AddValidationToProduct
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -63,6 +63,7 @@ namespace DilansBooks.DataAccess.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Author")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("CategoryId")
@@ -75,6 +76,7 @@ namespace DilansBooks.DataAccess.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ISBN")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ImageUrl")
@@ -83,12 +85,24 @@ namespace DilansBooks.DataAccess.Migrations
                     b.Property<double>("ListPrice")
                         .HasColumnType("float");
 
+                    b.Property<double>("Price")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Price100")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Price50")
+                        .HasColumnType("float");
+
                     b.Property<string>("Title")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
                     b.HasIndex("CategoryId");
+
+                    b.HasIndex("CoverTypeId");
 
                     b.ToTable("Products");
                 });
@@ -303,7 +317,7 @@ namespace DilansBooks.DataAccess.Migrations
 
                     b.HasOne("DilansBooks.Models.CoverType", "CoverType")
                         .WithMany()
-                        .HasForeignKey("CategoryId")
+                        .HasForeignKey("CoverTypeId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });

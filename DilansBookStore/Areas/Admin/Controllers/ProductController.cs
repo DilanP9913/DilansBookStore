@@ -1,18 +1,14 @@
 ﻿using DilansBooks.DataAccess.Repository.IRepository;
-using DilansBookStore.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using System.IO;
 using System.Threading.Tasks;
 using DilansBooks.Models;
 using Microsoft.AspNetCore.Hosting;
-
 using DilansBooks.Models.ViewModels;
 
 namespace DilansBookStore.Area.Admin.Controllers

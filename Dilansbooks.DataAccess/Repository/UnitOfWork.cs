@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DilansBooks.DataAccess.Repository
 {
-    public class UnitOfWork  : IUnitOfWork 
+    public class UnitOfWork : IUnitOfWork
     {
         private readonly ApplicationDbContext _db;
 
@@ -37,6 +37,4 @@ namespace DilansBooks.DataAccess.Repository
             _db.SaveChanges();
         }
     }
-
-    
 }

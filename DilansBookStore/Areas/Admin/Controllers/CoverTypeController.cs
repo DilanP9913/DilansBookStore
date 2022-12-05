@@ -27,7 +27,7 @@ namespace DilansBookStore.Area.Admin.Controllers
         {
             return View();
         }
-        public IActionResult upsert(int? id)
+        public IActionResult Upsert(int? id)
         {
             CoverType CoverType = new CoverType();
             if (id == null)

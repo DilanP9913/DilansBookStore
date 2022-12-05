@@ -218,3 +218,38 @@ Program Date:- 2022/10/25
 1510: Then try to run the application
 1515: And it was running successfully............................
 1516: And with this I completed my part -3
+
+
+--------------------------------------------------------------------------------------------------Part-4--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2022/11/30
+
+1310: Added migration:-
+      - 20221205192911_AddValidationToProduct.cs
+1315: Started finding difference between my project and bulkybook project
+1320: Found some differences
+1325: tried to solve differencs
+1330: My image stopped working because of error
+1340: final fixed error problem as i worte wrong folder name in Upsert.cs
+1345: Then cam with some more errors 
+1350: then Misplaced upsert.cs name with Upsert.cs
+1400: Still there were some stuff left like displaying product on Home page
+1405: First updated HomeController.cs
+1410: Then updated its upsert file
+
+2022/12/2
+
+1110: then updated Product.cs file for Price,Price50,Price100
+1120: then updated product.js
+1125: then updated category.js
+1130: then updated Upsert file of category
+1135: then updated ProductRepository.cs
+1140: Then updated database and checked it but still it was not showing on database 
+1150: I tried build it but still it was not building also and showing exception
+1200: then thought to was to sir in class
+
+2022/12/5
+
+3000: Then i thought it was having migrtion problem
+3005: Then i deleted the migration and checked running the database
+3010: And it was unning properly and i was very happy.............. as finally I did it
