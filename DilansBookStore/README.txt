@@ -252,4 +252,5 @@ Program Date:- 2022/10/25
 
 3000: Then i thought it was having migrtion problem
 3005: Then i deleted the migration and checked running the database
-3010: And it was unning properly and i was very happy.............. as finally I did it
+3010: And it was unning properly and i was very happy.............. as finally I did it.
+3015: Try to add three products and show it on home page and my application was showing it perfectly.
