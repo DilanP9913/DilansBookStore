@@ -27,15 +27,15 @@
                 <div class="col-8 offset-4">
                     @if (Model.Id != 0)
                     {
-        <partial name="_EditAndBackToListButton" modal="Model.Id" /> }
+                        <partial name="_EditAndBackToListButton" modal="Model.Id" /> }
                     else
                     {
-        <partial name="_CreateAndBackToListButton" />}
+                        <partial name="_CreateAndBackToListButton" />}
                 </div>
             </div>
         </div>
     </div>
 </form>
 @section Scripts{
-<partial name="_ValidationScriptsPartial" />
+    <partial name="_ValidationScriptsPartial" />
 }
